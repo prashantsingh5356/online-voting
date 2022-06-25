@@ -1,0 +1,81 @@
+.signup-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.signup-img {
+  width: 45%;
+  height: 100vh;
+  padding-top: 7rem;
+  background-color: white;
+}
+
+.signup-img-image_container {
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.signup-form {
+  width: 55%;
+  height: 100vh;
+  padding-top: 5rem;
+}
+
+.signup-form h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.form {
+  width: 60%;
+  min-height: 50vh;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.form label {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.form input {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  border-style: none;
+}
+
+.form button {
+  margin-top: 1rem;
+  width: 100%;
+  height: 3rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #208d21;
+  border-style: none;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.form button:hover {
+  transform: scale(1.1);
+  background-color: #186019;
+}

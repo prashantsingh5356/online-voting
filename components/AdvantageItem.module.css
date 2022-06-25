@@ -1,0 +1,8 @@
+.advantageItem {
+  width: 80%;
+  height: 40vh;
+  margin: 0 auto;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,84 @@
+.home-container {
+  background: #67b26f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  height: 100vh;
+  padding-top: 9rem;
+}
+
+.home-content {
+  width: 80%;
+  height: 75vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-container__details {
+  width: 35%;
+  height: 75vh;
+}
+
+.home-container__image {
+  width: 60%;
+  height: 75vh;
+}
+
+.detail-heading {
+  color: white;
+  margin: 0;
+}
+.online {
+  font-size: 7rem;
+  font-weight: 200;
+}
+.voting {
+  font-size: 4rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.underline {
+  margin-top: 15px;
+  border: 1px solid white;
+  background-color: white;
+  width: 40%;
+  border-radius: 15px;
+}
+.heading-description {
+  color: white;
+  font-size: 1.2rem;
+  text-align: start;
+}
+
+.button button {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  width: 50%;
+  height: 8vh;
+  font-size: 2rem;
+  background: #34883c;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  transform: scale(1.2);
+  background: #04570b;
+}
+
+.button button:active {
+  transform: scale(1);
+}
